@@ -15,13 +15,13 @@ const string tds = "dimes";
 
 void compute_coins(int amount);
 int main(){
-    cout<<"Enter number of cents ( or zero to quit ):"<<endl;
+    cout<<"Enter number of cents (or zero to quit):"<<endl;
     int input;
     cin>>input;
     while (input != 0)
     {
         compute_coins(input);
-        cout<<"Enter number of cents ( or zero to quit ):"<<endl;
+        cout<<"Enter number of cents (or zero to quit):"<<endl;
         cin>>input;
         
     }
