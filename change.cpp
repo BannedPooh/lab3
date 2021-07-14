@@ -31,7 +31,7 @@ void compute_coins(int amount)
 {
     if (amount <= 0 || amount >= 100)
     {
-        std::cout<<"Amount is out of bounds . Must be between 1 and 99.\n";
+        std::cout<<"Amount is out of bounds. Must be between 1 and 99.\n";
         return;
     }
     int q(0), p(0), d(0), temp = amount;
